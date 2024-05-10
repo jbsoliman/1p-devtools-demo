@@ -5,7 +5,7 @@
 # the last time the vault contents were updated, and list which users and groups have access
 # to the vault along with their permissions. 
 
-for vault in $(op vault list --format=json | jq --raw-output '.[] .id')
+for vault in $(op vault list --group Owners --format=json | jq --raw-output '.[] .id')
 do
         echo ""
         echo "**************Vault Details**************"

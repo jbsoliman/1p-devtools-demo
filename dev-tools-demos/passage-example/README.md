@@ -1,4 +1,4 @@
-Hello From The Knowledge Boost!
+Hello World!
 
 # Passage by 1Password Example React App
 
