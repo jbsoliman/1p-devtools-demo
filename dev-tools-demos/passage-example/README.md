@@ -1,4 +1,4 @@
-Hello from May 10th!
+Hello from 1Password!
 
 # Passage by 1Password Example React App
 
